@@ -10,7 +10,7 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 54px;
     line-height: 64px;
     color: #222222;
 }
@@ -77,7 +77,7 @@ body {
 
 .navbar li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #1a1a1a;
     transition: 0.3s ease;
@@ -116,7 +116,6 @@ body {
 }
 
 #hero .left-col {
-    padding-top: 100px;
     padding: 0 80px;
 }
 
@@ -124,9 +123,15 @@ body {
     padding-bottom: 15px;
 }
 
+#hero .left-col h2 {
+    font-weight: 600;
+    font-size: 65px;
+}
+
 #hero .left-col h1 {
     color: #088178;
     font-weight: 700;
+    font-size: 80px;
 }
 
 /* Feature Section Style */
@@ -153,7 +158,57 @@ body {
     border-bottom: 2px solid #088178;
 }
 
+#feature .feauter-box img {
+    margin-bottom: 10px;
+    transition-duration: 0.3s;
+}
+
+#feature .feauter-box img:hover {
+    transform: scale(1.05);
+}
+
 #feature .feauter-box h6 {
     margin-top: 10px;
-    color: #1a1a1a;
+    padding: 7px 20px;
+    color: #088178;
+    background-color: #fddde4;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 1;
+}
+
+#feature .feauter-box:nth-child(2) h6 {
+    background-color: #e3e6f3;
+}
+
+#feature .feauter-box:nth-child(3) h6 {
+    background-color: #91fdc1;
+}
+
+#feature .feauter-box:nth-child(4) h6 {
+    background-color: #91ddfd;
+}
+
+#feature .feauter-box:nth-child(5) h6 {
+    background-color: #fbe59a;
+}
+
+#feature .feauter-box:nth-child(6) h6 {
+    background-color: #efabfe;
+}
+
+/* Featured Product Section */
+#featured-products {
+    text-align: center;
+}
+
+#featured-products h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+#featured-products p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
